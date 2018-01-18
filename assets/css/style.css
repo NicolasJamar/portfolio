@@ -1,0 +1,15 @@
+.card-deck {
+  margin-bottom: 2rem; }
+  .card-deck .card {
+    width: 18rem; }
+
+.jumbotron {
+  background-image: url(../img/backg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 15rem; }
+  .jumbotron .container {
+    text-align: center;
+    height: 100%; }
+
+/*# sourceMappingURL=style.css.map */
