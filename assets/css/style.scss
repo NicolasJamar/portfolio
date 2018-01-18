@@ -2,6 +2,10 @@ $fonttitle: Montserrat, Arial, Sans Serif !important;
 $fontcontent: Lato, Arial, Sans Serif !important;
 $white: #fff !important;
 
+body{
+	background-color : #651FFF!important;
+}
+
 h1{
 	font:{
 		family : $fonttitle;
@@ -14,28 +18,20 @@ h1{
 }
 
 h2{
+	margin : 0 auto !important;
 	font:{
 		family : $fonttitle;
 		weight : bold !important;
 	}
 }
 
-p, h5{
+p, h5, small{
 	font-family : $fontcontent;
 
 }
 
-.card-deck{
-	margin-bottom : 2rem;
-
-	.card{
-	width : 18rem;
-	}
-}
-
-
 .jumbotron{
-	// background-image : url(../img/backg.jpeg);
+	background-image : url(../img/backg.jpeg);
 	background-repeat: no-repeat;
   	background-size: cover;
   	height: 100vh;
@@ -48,7 +44,17 @@ p, h5{
 
 nav{
 	margin-top : 8%;
-	
+}
+
+.card-deck{
+	margin-bottom : 2rem;
+
+	.card{
+	width : 18rem;
+		img{
+			height: 12rem;
+		}
+	}
 }
 
 footer{
