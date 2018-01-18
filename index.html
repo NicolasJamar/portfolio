@@ -27,7 +27,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 	<!-- FONT -->
-	 <!-- <link href="" rel="stylesheet">  -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
 	<!--fontawesome-->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,14 +36,16 @@
 <body>
 	<header class="jumbotron jumbotron-fluid">
 		<div class="container">
-		<h1 class="display-4">Portfolio Nicolas Jamar</h1>
+		<h1 class="display-3 text-uppercase" id="messenger">Portfolio Nico</h1>
 				<p class="lead">Bonjour et bienvenue sur mon portfolio.</p>
 			<hr class="my-4">
 				<p>Vous trouverez ici mes travaux réalisés en tant que web developer junior.</p>
-			<p class="lead">
-				<ul class="nav justify-content-center">
+		</div>
+
+			<nav class="align-items-end">
+				<ul class="nav align-items-end justify-content-center">
 					<li class="nav-item">
-						<button type="button" class="btn btn-info"><a class="nav-link" href="#">Projets achevés</a></button>
+						<button type="button" class="btn btn-info"><a class="nav-link" id="lien" href="#intro">Projets achevés</a></button>
 					</li>
 					<li class="nav-item">
 						<button type="button" class="btn btn-info"><a class="nav-link" href="#">Projets achevés</a></button>
@@ -54,61 +57,62 @@
 						<button type="button" class="btn btn-info"><a class="nav-link" href="#">Projets achevés</a></button>
 					</li>
 				</ul>
-			</p>
-		</div>
+			</nav>
+		
 	</header>
 	<main>
 		<div class="container">
 		<h2 class="display-3 justify-content-center">Portfolio</h2>
 		<div class="row justify-content-around">
-			<div class="card-deck">
+			<div class="card-deck" id="intro">
 				<div class="card">
-					<img class="card-img-top" src="assets/img/aaron.png" alt="Card image cap">
+					<a href="https://nicolasjamar.github.io/aaron-swartz/"><img class="card-img-top" src="assets/img/aaron.png" title="Aaron Swartz" alt="Card image cap"></a>
 					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						<h5 class="card-title">Aaron Swartz</h5>
+						<p class="card-text">Présentation d'Aaron Swartz.</p>
+						<p>Comprendre comment exécuter un layout à partir de HTML et de CSS</p>
 					</div>
 					<div class="card-footer">
-						<small class="text-muted">Last updated 3 mins ago</small>
+						<small class="text-muted"><a href="https://github.com/NicolasJamar/aaron-swartz">Becode</a></small>
 					</div>
 				</div>
 				<div class="card">
-					<img class="card-img-top" src="assets/img/cvbootstrap.png" alt="Card image cap">
+					<a href="https://nicolasjamar.github.io/cv-bootstrap/Bootstrapcv.html"><img class="card-img-top" src="assets/img/cvbootstrap.png" title="CV en Bootstrap" alt="Card image cap"></a>
 					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+						<h5 class="card-title">CV en bootstarp</h5>
+						<p class="card-text">Mon CV réaliser à partir de Bootstrap.</p>
 					</div>
 					<div class="card-footer">
-						<small class="text-muted">Last updated 3 mins ago</small>
+						<small class="text-muted">Projet perso</small>
 					</div>
 				</div>
 				<div class="card">
-					<img class="card-img-top" src="assets/img/restaurant.png" alt="Card image cap">
+					<a href="https://nicolasjamar.github.io/restaurant-css-framework/index.html"><img class="card-img-top" title="Restaurant Tocito" src="assets/img/restaurant.png" alt="Card image cap"></a>
 					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+						<h5 class="card-title">Restaurant</h5>
+						<p class="card-text">Restaurant fictif réalisé à partir de Bootstarp.</p>
 					</div>
 					<div class="card-footer">
-						<small class="text-muted">Last updated 3 mins ago</small>
+						<small class="text-muted">Becode</small>
 					</div>
 				</div>
 			</div>
 			<div class="row justify-content-around">
 				<div class="card-deck">
 				<div class="card">
-					<img class="card-img-top" src="assets/img/weddev.png" alt="Card image cap">
+					<a href="https://nicolasjamar.github.io/interview-webdev/"><img class="card-img-top" title="Interview d'un web dev" src="assets/img/weddev.png" alt="Card image cap"></a>
 					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+						<h5 class="card-title">Interview d'un Web Dev</h5>
+						<p class="card-text">.</p>
 					</div>
 					<div class="card-footer">
 						<small class="text-muted">Last updated 3 mins ago</small>
 					</div>
 				</div>
 				<div class="card">
-					<img class="card-img-top" src="assets/img/tableau.png" alt="Card image cap">
+					<a href="https://nicolasjamar.github.io/CV-table/exe3CV.html"><img class="card-img-top" title="Tableau" src="assets/img/tableau.png" alt="Card image cap"></a>
 					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
+						<h5 class="card-title">Tableau</h5>
 						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
 					</div>
 					<div class="card-footer">
@@ -117,10 +121,57 @@
 				</div>
 			</div>
 			</div>
-	</div>
+		</div>
 	</main>
-	<footer></footer>
-
+	<!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Nicolas Jamar</h4>
+            <p class="lead mb-0">Rue Paul-Joseph Delcloche 3/52
+              <br>4020 Liège</p>
+          </div>
+          <div class="col-md-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Réseaux sociaux</h4>
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-google-plus"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                  <i class="fa fa-fw fa-dribbble"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4 class="text-uppercase mb-4">About Freelancer</h4>
+            <p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
+              <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+          </div>
+        </div>
+      </div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> 
+	<script src="assets/js/script.js"></script>
 	
 </body>
 </html>

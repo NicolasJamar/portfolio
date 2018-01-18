@@ -1,15 +1,35 @@
+h1 {
+  font-family: Montserrat, Arial, Sans Serif !important;
+  font-weight: bold !important;
+  white-space: nowrap;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.9);
+  color: #fff !important;
+  margin-bottom: 3rem !important; }
+
+h2 {
+  font-family: Montserrat, Arial, Sans Serif !important;
+  font-weight: bold !important; }
+
+p, h5 {
+  font-family: Lato, Arial, Sans Serif !important; }
+
 .card-deck {
   margin-bottom: 2rem; }
   .card-deck .card {
     width: 18rem; }
 
 .jumbotron {
-  background-image: url(../img/backg.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 15rem; }
+  height: 100vh;
+  padding-top: 10rem !important; }
   .jumbotron .container {
-    text-align: center;
-    height: 100%; }
+    text-align: center; }
+
+nav {
+  margin-top: 8%; }
+
+footer {
+  background-color: #2C3E50; }
 
 /*# sourceMappingURL=style.css.map */
