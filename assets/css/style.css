@@ -2,7 +2,7 @@ h1 {
   font-family: Montserrat, Arial, Sans Serif !important;
   font-weight: bold !important;
   white-space: nowrap;
-  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.9);
+  text-shadow: 0 5px 5px black;
   color: #fff !important;
   margin-bottom: 3rem !important; }
 
@@ -29,7 +29,11 @@ a {
   height: 100vh;
   padding-top: 10rem !important; }
   .jumbotron .container {
-    text-align: center; }
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); }
+    .jumbotron .container p {
+      color: #fff !important;
+      text-shadow: 0 5px 5px black; }
 
 nav {
   position: relative;

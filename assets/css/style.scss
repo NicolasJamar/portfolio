@@ -12,7 +12,7 @@ h1{
 		weight : bold !important;
 	}
 	white-space: nowrap;
-  	text-shadow: 0 5px 5px rgba(#000, 0.9);
+  	text-shadow: 0 5px 5px rgba(#000, 1);
 	color: $white;
 	margin-bottom : 3rem !important;
 }
@@ -47,7 +47,11 @@ a{
 	padding-top: 10rem !important;
   	.container{
   		text-align: center;
-  		
+  		background-color : rgba(#000, 0.5);
+  		p{
+  			color: $white;
+  			text-shadow: 0 5px 5px rgba(#000, 1);
+  		}
   	}
 }
 
