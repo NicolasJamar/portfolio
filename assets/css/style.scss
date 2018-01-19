@@ -12,7 +12,7 @@ h1{
 		weight : bold !important;
 	}
 	white-space: nowrap;
-  	text-shadow: 0 5px 5px rgba(#000, 0.9);
+  	text-shadow: 0 5px 5px rgba(#000, 1);
 	color: $white;
 	margin-bottom : 3rem !important;
 }
@@ -26,9 +26,17 @@ h2{
 	}
 }
 
-p, h5, small{
+p, h4, h5, small, li{
 	font-family : $fontcontent;
+}
 
+button{
+	padding : 0 !important;
+	margin : 2rem !important;
+}
+
+a{
+	text-decoration : none !important;
 }
 
 .jumbotron{
@@ -39,7 +47,11 @@ p, h5, small{
 	padding-top: 10rem !important;
   	.container{
   		text-align: center;
-  		
+  		background-color : rgba(#000, 0.5);
+  		p{
+  			color: $white;
+  			text-shadow: 0 5px 5px rgba(#000, 1);
+  		}
   	}
 }
 
@@ -48,16 +60,21 @@ nav{
 	margin-top : 8%;
 }
 
-.card-deck{
-	margin-bottom : 2rem;
-
-	.card{
-	width : 18rem;
+.card{
+	width : 18rem !important;
+	// margin : 0 2rem !important;
 		img{
 			height: 12rem;
 		}
 	}
+
+.divider{
+	width: 100px;
+    height: 2px;
+    background: #32CD32;
+    margin: 0 auto;
 }
+
 
 footer{
 	background-color : #2C3E50;
