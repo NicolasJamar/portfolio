@@ -34,9 +34,9 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<header class="jumbotron jumbotron-fluid">
+	<header class="jumbotron jumbotron-fluid" id="header">
 		<div class="container">
-			<h1 class="display-3 text-uppercase" id="messenger">Portfolio Nico</h1>
+			<h1 class="display-3 text-uppercase text-center" id="messenger">Portfolio Nico</h1>
 			<p class="lead">Bonjour et bienvenue sur mon portfolio.</p>
 			<hr class="my-4">
 			<p>Vous trouverez ici mes travaux réalisés en tant que web developer junior.</p>
@@ -64,7 +64,7 @@
 	<main id="main">
 		<div class="container">
 			<div class="row">
-				<h5 class="text-center text-uppercase mx-auto">portfolio</h3>
+				<h5 class="text-center text-uppercase mx-auto">portfolio</h5>
 			</div>
 			<div class="row">
 				<h2 class="text-center text-uppercase mx-auto">projets achevés</h2>
@@ -72,49 +72,53 @@
 			<div class="row card-group">
 				<div class="col-lg-4 p-0 my-2">
 					<div class="card mx-auto border-dark">
-						<a href="https://nicolasjamar.github.io/aaron-swartz/"><img class="card-img-top img-fluid" src="assets/img/aaron.png" title="Aaron Swartz" alt="Card image cap"></a>
+						<a href="https://nicolasjamar.github.io/aaron-swartz/" target="_blank"><img class="card-img-top img-fluid" src="assets/img/aaron.png" title="Aaron Swartz" alt="Card image cap"></a>
 						<div class="card-body">
 							<h4 class="card-title text-center">Aaron Swartz</h4>
 							<div class="divider"></div>
 							<p class="card-text">Présentation d'Aaron Swartz.</p>
 							<p>Comprendre comment exécuter un layout à partir de HTML et de CSS</p>
 						</div>
-						<div class="card-footer">
-							<small class="text-muted"><a href="https://github.com/NicolasJamar/aaron-swartz">Becode</a></small>
+						<div class="card-footer p-0">
+							<small><a class="p-2" href="https://github.com/NicolasJamar/aaron-swartz" target="_blank">Projet Becode</a></small>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 p-0 my-2">
 					<div class="card mx-auto border-dark">
-						<a href="https://nicolasjamar.github.io/cv-bootstrap/Bootstrapcv.html"><img class="card-img-top img-fluid" src="assets/img/cvbootstrap.png" title="CV en Bootstrap" alt="Card image cap"></a>
+						<a href="https://nicolasjamar.github.io/cv-bootstrap/Bootstrapcv.html" target="_blank"><img class="card-img-top img-fluid" src="assets/img/cvbootstrap.png" title="CV en Bootstrap" alt="CV-Bootstrap"></a>
 						<div class="card-body">
 							<h4 class="card-title text-center">CV en bootstarp</h4>
 							<div class="divider"></div>
-							<p class="card-text">Mon CV réalisé à partir de Bootstrap.</p>
+							<p class="card-text">Bootstrap : Mon CV avec Bootstrap.</p>
 						</div>
-						<div class="card-footer">
-							<small class="text-muted">Projet perso</small>
+						<div class="card-footer p-0">
+							<small><a class="p-2" href="https://github.com/NicolasJamar/cv-bootstrap" target="_blank">Projet perso</a></small>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 p-0 my-2">
 					<div class="card mx-auto border-dark">
-						<a href="https://nicolasjamar.github.io/CV-table/exe3CV.html"><img class="card-img-top img-fluid" title="Tableau" src="assets/img/tableau.png" alt="Card image cap"></a>
+						<a href="https://nicolasjamar.github.io/CV-table/exe3CV.html" target="_blank"><img class="card-img-top img-fluid" title="Tableau" src="assets/img/tableau.png" alt="Tableau"></a>
 						<div class="card-body">
 							<h4 class="card-title text-center">Tableau</h4>
 							<div class="divider"></div>
-							<p class="card-text">T</p>
+							<p class="card-text">Initiation au layout : Faux-CV réalisé uniquement avec les balises tableaux du HTML.</p>
 						</div>
-						<div class="card-footer">
-							<small class="text-muted">Last updated 3 mins ago</small>
+						<div class="card-footer p-0">
+							<small><a class="p-2" href="https://github.com/NicolasJamar/CV-table" target="_blank">Projet Becode</a></small>
 						</div>
 					</div>
 				</div>
-				
+			</div>
+			<div class="row">
+				<a class="lien anchorLink mx-auto" rel="" href="#header">
+					<i class="fa fa-chevron-up fa-1x" aria-hidden="true"></i>
+				</a>
 			</div>
 			<hr class="my-4">
 			<div class="row" id="encours">
-				<h5 class="text-center text-uppercase mx-auto">portfolio</h3>
+				<h5 class="text-center text-uppercase mx-auto">portfolio</h5>
 			</div>
 			<div class="row">
 				<h2 class="text-center text-uppercase mx-auto">projets en cours</h2>
@@ -122,40 +126,64 @@
 			<div class="row card-group">
 				<div class="col-lg-4 p-0 my-2">
 					<div class="card mx-auto border-dark">
-						<a href="https://nicolasjamar.github.io/restaurant-css-framework/index.html"><img class="card-img-top img-fluid" title="Restaurant Tocito" src="assets/img/restaurant.png" alt="Card image cap"></a>
+						<a href="https://nicolasjamar.github.io/restaurant-css-framework/index.html" target="_blank"><img class="card-img-top img-fluid" title="Restaurant Tocito" src="assets/img/restaurant.png" alt="Card image cap"></a>
 						<div class="card-body">
 							<h4 class="card-title text-center">Restaurant</h4>
 							<div class="divider"></div>
-							<p class="card-text">Restaurant fictif réalisé à partir de Bootstarp.</p>
+							<p class="card-text">Initiation à Bootstrap : Restaurant fictif.</p>
 						</div>
-						<div class="card-footer">
-							<small class="text-muted">Becode</small>
+						<div class="card-footer p-0">
+							<small><a class="p-2" href="https://github.com/NicolasJamar/restaurant-css-framework" target="_blank">Projet Becode</a></small>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 p-0 my-2">
 					<div class="card mx-auto border-dark">
-						<a href="https://nicolasjamar.github.io/interview-webdev/"><img class="card-img-top img-fluid" title="Interview d'un web dev" src="assets/img/weddev.png" alt="Card image cap"></a>
+						<a href="https://nicolasjamar.github.io/interview-webdev/" target="_blank"><img class="card-img-top img-fluid" title="Interview d'un web dev" src="assets/img/weddev.png" alt="Card image cap"></a>
 						<div class="card-body">
 							<h4 class="card-title text-center">Interview d'un Web Dev</h4>
 							<div class="divider"></div>
-							<p class="card-text">.</p>
+							<p class="card-text">Initiation au HTML/CSS : Réaliser un site avec plusieurs pages HTML.</p>
 						</div>
-						<div class="card-footer">
-							<small class="text-muted">Last updated 3 mins ago</small>
+						<div class="card-footer p-0">
+							<small><a class="p-2" href="https://github.com/NicolasJamar/interview-webdev" target="_blank">Projet Becode</a></small>
 						</div>
 					</div>
 				</div>
-				
-			</div>
+				</div>
+				<div class="row">
+					<a class="lien anchorLink mx-auto" rel="" href="#header" class="anchorLink">
+						<i class="fa fa-chevron-up fa-1x" aria-hidden="true"></i>
+					</a>
+				</div>
+			
 			<hr class="my-4">
 			<div class="row" id="avenir">
-				<h5 class="text-center text-uppercase mx-auto">portfolio</h3>
+				<h5 class="text-center text-uppercase mx-auto">portfolio</h5>
 			</div>
 			<div class="row">
 				<h2 class="text-center text-uppercase mx-auto">projets à venir</h2>
 			</div>
 			<div class="row card-group">
+				<div class="col-lg-4 p-0 my-2">
+					<div class="card mx-auto border-dark">
+						<a href="#" target="_blank"><img class="card-img-top img-fluid" title="La Milf" src="assets/img/milf.jpg" alt="Card image cap"></a>
+						<div class="card-body">
+							<h4 class="card-title text-center">La Milf</h4>
+							<div class="divider"></div>
+							<p class="card-text">Réaliser le site de la bière, la Milf</p>
+						</div>
+						<div class="card-footer p-0">
+							<small><a class="p-2" href="https://github.com/NicolasJamar/" target="_blank">Projet perso</a></small>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<a class="lien anchorLink mx-auto" rel="" href="#header" class="anchorLink">
+					<i class="fa fa-chevron-up fa-1x" aria-hidden="true"></i>
+				</a>
+			</div>
 		</div>
 	</main>
 		<!-- Footer -->
@@ -176,6 +204,11 @@
 							<li class="list-inline-item">
 								<a class="btn btn-outline-light btn-social text-center" href="https://www.linkedin.com/in/nicolas-jamar-26123814b/" target="_blank">
 									<i class="fa fa-fw fa-linkedin"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a class="btn btn-outline-light btn-social text-center" href="https://github.com/NicolasJamar/" target="_blank">
+									<i class="fa fa-fw fa-github"></i>
 								</a>
 							</li>
 						</ul>

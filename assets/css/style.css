@@ -1,7 +1,6 @@
 h1 {
   font-family: Montserrat, Arial, Sans Serif !important;
   font-weight: bold !important;
-  white-space: nowrap;
   text-shadow: 0 5px 5px black;
   color: #fff !important;
   margin-bottom: 3rem !important; }
@@ -15,7 +14,7 @@ p, h4, h5, small, li {
 
 button {
   padding: 0 !important;
-  margin: 2rem !important; }
+  margin: 1rem !important; }
 
 a {
   text-decoration: none !important; }
@@ -24,7 +23,7 @@ a {
   background-image: url(../img/backg.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 10rem !important; }
   .jumbotron .container {
     text-align: center;
@@ -34,7 +33,6 @@ a {
       text-shadow: 0 5px 5px black; }
 
 nav {
-  position: relative;
   margin-top: 8%; }
 
 .card {
@@ -44,12 +42,32 @@ nav {
     .card img:hover {
       opacity: 0.5;
       transition: 0.8s; }
+  .card small {
+    display: block; }
+    .card small a {
+      color: #000 !important;
+      display: block;
+      text-align: center; }
+      .card small a:hover {
+        background-color: rgba(0, 0, 0, 0.2) !important;
+        transition: 0.8s; }
 
 .divider {
   width: 100px;
   height: 2px;
   background: #AA00FF;
-  margin: 0 auto; }
+  margin: 0 auto 0.9em; }
+
+.anchorLink {
+  color: #AA00FF;
+  border: 1px solid #AA00FF;
+  padding: 10px !important;
+  line-height: 10px !important;
+  border-radius: 50% !important;
+  margin: 1rem; }
+  .anchorLink:hover {
+    color: #501170;
+    border-color: #501170; }
 
 footer {
   background-color: #2C3E50;
@@ -58,7 +76,6 @@ footer {
   color: #fff !important; }
   footer a {
     line-height: 30px !important;
-    color: white;
     border-radius: 100% !important; }
 
 /*# sourceMappingURL=style.css.map */
