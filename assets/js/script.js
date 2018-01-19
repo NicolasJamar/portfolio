@@ -1,6 +1,6 @@
-  $('#lien').click(function(){
-    // var card = $(this).attr('id'); // Page cible
-      $('html, body').animate( { scrollTop: $('#main').offset().top }, 800 ); // Go
+  $('.lien').click(function(){
+    var card = $(this).attr('href'); // Page cible
+      $('html, body').animate( { scrollTop: $(card).offset().top }, 1000 ); // Go
       return false;
 });
 

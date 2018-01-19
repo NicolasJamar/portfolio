@@ -40,21 +40,22 @@
 			<p class="lead">Bonjour et bienvenue sur mon portfolio.</p>
 			<hr class="my-4">
 			<p>Vous trouverez ici mes travaux réalisés en tant que web developer junior.</p>
+			</br>
 		</div>
 
 		<nav class="align-items-end">
 			<ul class="nav align-items-end justify-content-center">
 				<li class="nav-item">
-					<button type="button" class="btn btn-light"><a class="nav-link" id="lien" href="#main">Projets achevés</a></button>
+					<button type="button" class="btn btn-light"><a class="nav-link text-dark lien" href="#main">Projets achevés</a></button>
 				</li>
 				<li class="nav-item">
-					<button type="button" class="btn btn-light"><a class="nav-link" href="#">Projets achevés</a></button>
+					<button type="button" class="btn btn-light"><a class="nav-link text-dark lien" href="#encours">Projets en cours</a></button>
 				</li>
 				<li class="nav-item">
-					<button type="button" class="btn btn-light"><a class="nav-link" href="#">Projets achevés</a></button>
+					<button type="button" class="btn btn-light"><a class="nav-link text-dark lien" href="#avenir">Projets à venir</a></button>
 				</li>
 				<li class="nav-item">
-					<button type="button" class="btn btn-light"><a class="nav-link" href="#">Projets achevés</a></button>
+					<button type="button" class="btn btn-light"><a class="nav-link text-dark lien" href="#contact">Contact</a></button>
 				</li>
 			</ul>
 		</nav>
@@ -63,12 +64,15 @@
 	<main id="main">
 		<div class="container">
 			<div class="row">
-				<h2 class="display-3 text-center">Portfolio</h2>
+				<h5 class="text-center text-uppercase mx-auto">portfolio</h3>
+			</div>
+			<div class="row">
+				<h2 class="text-center text-uppercase mx-auto">projets achevés</h2>
 			</div>
 			<div class="row card-group">
 				<div class="col-lg-4 p-0 my-2">
 					<div class="card mx-auto border-dark">
-						<a href="https://nicolasjamar.github.io/aaron-swartz/"><img class="card-img-top" src="assets/img/aaron.png" title="Aaron Swartz" alt="Card image cap"></a>
+						<a href="https://nicolasjamar.github.io/aaron-swartz/"><img class="card-img-top img-fluid" src="assets/img/aaron.png" title="Aaron Swartz" alt="Card image cap"></a>
 						<div class="card-body">
 							<h4 class="card-title text-center">Aaron Swartz</h4>
 							<div class="divider"></div>
@@ -82,7 +86,7 @@
 				</div>
 				<div class="col-lg-4 p-0 my-2">
 					<div class="card mx-auto border-dark">
-						<a href="https://nicolasjamar.github.io/cv-bootstrap/Bootstrapcv.html"><img class="card-img-top" src="assets/img/cvbootstrap.png" title="CV en Bootstrap" alt="Card image cap"></a>
+						<a href="https://nicolasjamar.github.io/cv-bootstrap/Bootstrapcv.html"><img class="card-img-top img-fluid" src="assets/img/cvbootstrap.png" title="CV en Bootstrap" alt="Card image cap"></a>
 						<div class="card-body">
 							<h4 class="card-title text-center">CV en bootstarp</h4>
 							<div class="divider"></div>
@@ -95,35 +99,7 @@
 				</div>
 				<div class="col-lg-4 p-0 my-2">
 					<div class="card mx-auto border-dark">
-						<a href="https://nicolasjamar.github.io/restaurant-css-framework/index.html"><img class="card-img-top" title="Restaurant Tocito" src="assets/img/restaurant.png" alt="Card image cap"></a>
-						<div class="card-body">
-							<h4 class="card-title text-center">Restaurant</h4>
-							<div class="divider"></div>
-							<p class="card-text">Restaurant fictif réalisé à partir de Bootstarp.</p>
-						</div>
-						<div class="card-footer">
-							<small class="text-muted">Becode</small>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row card-group">
-				<div class="col-lg-4 p-0 my-2">
-					<div class="card mx-auto border-dark">
-						<a href="https://nicolasjamar.github.io/interview-webdev/"><img class="card-img-top" title="Interview d'un web dev" src="assets/img/weddev.png" alt="Card image cap"></a>
-						<div class="card-body">
-							<h4 class="card-title text-center">Interview d'un Web Dev</h4>
-							<div class="divider"></div>
-							<p class="card-text">.</p>
-						</div>
-						<div class="card-footer">
-							<small class="text-muted">Last updated 3 mins ago</small>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 p-0 my-2">
-					<div class="card mx-auto border-dark">
-						<a href="https://nicolasjamar.github.io/CV-table/exe3CV.html"><img class="card-img-top" title="Tableau" src="assets/img/tableau.png" alt="Card image cap"></a>
+						<a href="https://nicolasjamar.github.io/CV-table/exe3CV.html"><img class="card-img-top img-fluid" title="Tableau" src="assets/img/tableau.png" alt="Card image cap"></a>
 						<div class="card-body">
 							<h4 class="card-title text-center">Tableau</h4>
 							<div class="divider"></div>
@@ -134,56 +110,82 @@
 						</div>
 					</div>
 				</div>
+				
 			</div>
+			<hr class="my-4">
+			<div class="row" id="encours">
+				<h5 class="text-center text-uppercase mx-auto">portfolio</h3>
+			</div>
+			<div class="row">
+				<h2 class="text-center text-uppercase mx-auto">projets en cours</h2>
+			</div>
+			<div class="row card-group">
+				<div class="col-lg-4 p-0 my-2">
+					<div class="card mx-auto border-dark">
+						<a href="https://nicolasjamar.github.io/restaurant-css-framework/index.html"><img class="card-img-top img-fluid" title="Restaurant Tocito" src="assets/img/restaurant.png" alt="Card image cap"></a>
+						<div class="card-body">
+							<h4 class="card-title text-center">Restaurant</h4>
+							<div class="divider"></div>
+							<p class="card-text">Restaurant fictif réalisé à partir de Bootstarp.</p>
+						</div>
+						<div class="card-footer">
+							<small class="text-muted">Becode</small>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 p-0 my-2">
+					<div class="card mx-auto border-dark">
+						<a href="https://nicolasjamar.github.io/interview-webdev/"><img class="card-img-top img-fluid" title="Interview d'un web dev" src="assets/img/weddev.png" alt="Card image cap"></a>
+						<div class="card-body">
+							<h4 class="card-title text-center">Interview d'un Web Dev</h4>
+							<div class="divider"></div>
+							<p class="card-text">.</p>
+						</div>
+						<div class="card-footer">
+							<small class="text-muted">Last updated 3 mins ago</small>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<hr class="my-4">
+			<div class="row" id="avenir">
+				<h5 class="text-center text-uppercase mx-auto">portfolio</h3>
+			</div>
+			<div class="row">
+				<h2 class="text-center text-uppercase mx-auto">projets à venir</h2>
+			</div>
+			<div class="row card-group">
 		</div>
 	</main>
 		<!-- Footer -->
-		<footer class="footer text-center">
+		<footer class="footer text-center" id="contact">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 mb-5 mb-lg-0">
-						<h4 class="text-uppercase mb-4">Nicolas Jamar</h4>
-						<p class="lead mb-0">Rue Paul-Joseph Delcloche 3/52
-							<br>4020 Liège</p>
-						</div>
-						<div class="col-md-4 mb-5 mb-lg-0">
-							<h4 class="text-uppercase mb-4">Réseaux sociaux</h4>
-							<ul class="list-inline mb-0">
-								<li class="list-inline-item">
-									<a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-										<i class="fa fa-fw fa-facebook"></i>
-									</a>
-								</li>
-								<li class="list-inline-item">
-									<a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-										<i class="fa fa-fw fa-google-plus"></i>
-									</a>
-								</li>
-								<li class="list-inline-item">
-									<a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-										<i class="fa fa-fw fa-twitter"></i>
-									</a>
-								</li>
-								<li class="list-inline-item">
-									<a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-										<i class="fa fa-fw fa-linkedin"></i>
-									</a>
-								</li>
-								<li class="list-inline-item">
-									<a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-										<i class="fa fa-fw fa-dribbble"></i>
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-md-4">
-							<h4 class="text-uppercase mb-4">About Freelancer</h4>
-							<p class="lead mb-0">Freelance is a free to use, open source Bootstrap theme created by
-								<a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-							</div>
-						</div>
+					<div class="col-sm">
+						Nicolas Jamar
 					</div>
-				</footer>
+					<div class="col-sm">
+						<h4 class="text-uppercase mb-4">Réseaux sociaux</h4>
+						<ul class="list-inline">
+							<li class="list-inline-item">
+								<a class="btn btn-outline-light btn-social text-center" href="https://twitter.com/JamarNicolas?lang=fr" target="_blank">
+									<i class="fa fa-fw fa-twitter"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a class="btn btn-outline-light btn-social text-center" href="https://www.linkedin.com/in/nicolas-jamar-26123814b/" target="_blank">
+									<i class="fa fa-fw fa-linkedin"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm">
+						Fait avec Bootstrap
+					</div>
+				</div>
+			</div>
+		</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> 
 	<script src="assets/js/script.js"></script>
 	
