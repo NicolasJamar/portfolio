@@ -12,10 +12,6 @@ h2 {
 p, h4, h5, small, li {
   font-family: Lato, Arial, Sans Serif !important; }
 
-button {
-  padding: 0 !important;
-  margin: 1rem !important; }
-
 a {
   text-decoration: none !important; }
 
@@ -25,6 +21,9 @@ a {
   background-size: cover;
   min-height: 100vh;
   padding-top: 10rem !important; }
+  .jumbotron a {
+    margin: 1rem !important;
+    cursor: pointer; }
   .jumbotron .container {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5); }
