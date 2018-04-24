@@ -27,10 +27,18 @@ a {
   padding-top: 10rem !important; }
   .jumbotron .container {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5); }
+    background-color: rgba(0, 0, 0, 0.7); }
     .jumbotron .container p {
       color: #fff !important;
+      font-size: 2rem;
       text-shadow: 0 5px 5px black; }
+
+.lien {
+  color: #000; }
+  .lien:hover {
+    background-color: #AA00FF !important;
+    color: #fff !important;
+    transition: 0.7s ease; }
 
 nav {
   margin-top: 8%; }
@@ -45,12 +53,8 @@ nav {
   .card small {
     display: block; }
     .card small a {
-      color: #000 !important;
       display: block;
       text-align: center; }
-      .card small a:hover {
-        background-color: rgba(0, 0, 0, 0.2) !important;
-        transition: 0.8s; }
 
 .divider {
   width: 100px;
@@ -65,9 +69,6 @@ nav {
   line-height: 10px !important;
   border-radius: 50% !important;
   margin: 1rem; }
-  .anchorLink:hover {
-    color: #501170;
-    border-color: #501170; }
 
 footer {
   background-color: #2C3E50;
@@ -77,5 +78,12 @@ footer {
   footer a {
     line-height: 30px !important;
     border-radius: 100% !important; }
+
+@media screen and (max-width: 900px) {
+  .jumbotron h1 {
+    font-size: 3rem !important; }
+
+  .lead {
+    font-size: 1.5rem !important; } }
 
 /*# sourceMappingURL=style.css.map */

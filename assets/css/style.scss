@@ -2,63 +2,70 @@ $fonttitle: Montserrat, Arial, Sans Serif !important;
 $fontcontent: Lato, Arial, Sans Serif !important;
 $white: #fff !important;
 
-body{
-	// background-color : #651FFF!important;
-}
-
 h1{
 	font:{
-		family : $fonttitle;
-		weight : bold !important;
+		family: $fonttitle;
+		weight: bold !important;
 	}
   	text-shadow: 0 5px 5px rgba(#000, 1);
 	color: $white;
-	margin-bottom : 3rem !important;
+	margin-bottom: 3rem !important;
 }
 
 h2{
 	font:{
-		family : $fonttitle;
-		weight : bold !important;
+		family: $fonttitle;
+		weight: bold !important;
 	}
 }
 
 p, h4, h5, small, li{
-	font-family : $fontcontent;
+	font-family: $fontcontent;
 }
 
 button{
-	padding : 0 !important;
-	margin : 1rem !important;
+	padding: 0 !important;
+	margin: 1rem !important;
 }
 
 a{
-	text-decoration : none !important;
+	text-decoration: none !important;
 	
 }
 
 .jumbotron{
-	background-image : url(../img/backg.jpeg);
+	background-image: url(../img/backg.jpeg);
 	background-repeat: no-repeat;
   	background-size: cover;
   	min-height: 100vh;  //mettre min-pour que la nav en-dessous reste dans le jumbotron
 	padding-top: 10rem !important;
   	.container{
   		text-align: center;
-  		background-color : rgba(#000, 0.5);
+  		background-color: rgba(#000, 0.7);
   		p{
   			color: $white;
+  			font-size: 2rem;
   			text-shadow: 0 5px 5px rgba(#000, 1);
   		}
   	}
 }
 
+//Tous les liens
+.lien{
+	color: #000;
+	&:hover{
+		background-color: #AA00FF !important;
+		color: $white;
+		transition: 0.7s ease;
+	}
+}
+
 nav{
-	margin-top : 8%;
+	margin-top: 8%;
 }
 
 .card{
-	width : 18rem !important;
+	width: 18rem !important;
 		img{
 			height: 12rem;
 			&:hover{
@@ -70,13 +77,8 @@ nav{
 		small{
 			display: block;
 			a{
-				color: #000 !important;
 				display: block;
 				text-align: center ;
-				&:hover{
-				background-color: rgba(0, 0, 0, 0.2) !important;
-				transition: 0.8s;
-				}
 			}
 		}
 	}
@@ -89,22 +91,17 @@ nav{
 }
 
 .anchorLink{
-	color : #AA00FF;
-	border : 1px solid #AA00FF;
+	color: #AA00FF;
+	border: 1px solid #AA00FF;
 	padding: 10px !important;
 	line-height: 10px !important;
 	border-radius: 50% !important;
 	margin: 1rem;
-	&:hover{
-		color : #501170;
-		border-color: #501170;
-	}
-
 }
 
 
 footer{
-	background-color : #2C3E50;
+	background-color: #2C3E50;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 	color: $white;
@@ -115,4 +112,12 @@ footer{
 	}
 }
 
-
+@media screen and (max-width: 900px) {
+	.jumbotron h1{
+		font-size: 3rem !important;
+	}
+	
+	.lead{
+	font-size: 1.5rem !important;
+	}
+}
