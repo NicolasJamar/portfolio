@@ -24,7 +24,10 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
-  padding-top: 10rem !important; }
+  padding-top: 10rem !important;
+  padding-bottom: 0 !important; }
+  .jumbotron a {
+    cursor: pointer; }
   .jumbotron .container {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7); }
@@ -41,7 +44,7 @@ a {
     transition: 0.7s ease; }
 
 nav {
-  margin-top: 8%; }
+  margin: 3rem 0; }
 
 .card {
   width: 18rem !important; }
@@ -84,6 +87,6 @@ footer {
     font-size: 3rem !important; }
 
   .lead {
-    font-size: 1.5rem !important; } }
+    font-size: 1.3rem !important; } }
 
 /*# sourceMappingURL=style.css.map */

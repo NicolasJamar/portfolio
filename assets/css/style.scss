@@ -23,6 +23,7 @@ p, h4, h5, small, li{
 	font-family: $fontcontent;
 }
 
+
 button{
 	padding: 0 !important;
 	margin: 1rem !important;
@@ -39,6 +40,10 @@ a{
   	background-size: cover;
   	min-height: 100vh;  //mettre min-pour que la nav en-dessous reste dans le jumbotron
 	padding-top: 10rem !important;
+	padding-bottom: 0 !important;
+	a{
+		cursor: pointer;
+	}
   	.container{
   		text-align: center;
   		background-color: rgba(#000, 0.7);
@@ -61,7 +66,7 @@ a{
 }
 
 nav{
-	margin-top: 8%;
+	margin: 3rem 0;
 }
 
 .card{
@@ -118,6 +123,6 @@ footer{
 	}
 	
 	.lead{
-	font-size: 1.5rem !important;
+	font-size: 1.3rem !important;
 	}
 }
