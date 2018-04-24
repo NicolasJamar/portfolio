@@ -27,6 +27,7 @@ p, h4, h5, small, li{
 button{
 	padding: 0 !important;
 	margin: 1rem !important;
+	-moz-appearance: button;
 }
 
 a{
@@ -42,6 +43,7 @@ a{
 	padding-top: 10rem !important;
 	padding-bottom: 0 !important;
 	a{
+		margin: 1rem !important;
 		cursor: pointer;
 	}
   	.container{
@@ -62,6 +64,7 @@ a{
 		background-color: #AA00FF !important;
 		color: $white;
 		transition: 0.7s ease;
+		cursor: pointer !important;
 	}
 }
 

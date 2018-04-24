@@ -14,7 +14,8 @@ p, h4, h5, small, li {
 
 button {
   padding: 0 !important;
-  margin: 1rem !important; }
+  margin: 1rem !important;
+  -moz-appearance: button; }
 
 a {
   text-decoration: none !important; }
@@ -27,6 +28,7 @@ a {
   padding-top: 10rem !important;
   padding-bottom: 0 !important; }
   .jumbotron a {
+    margin: 1rem !important;
     cursor: pointer; }
   .jumbotron .container {
     text-align: center;
@@ -41,7 +43,8 @@ a {
   .lien:hover {
     background-color: #AA00FF !important;
     color: #fff !important;
-    transition: 0.7s ease; }
+    transition: 0.7s ease;
+    cursor: pointer !important; }
 
 nav {
   margin: 3rem 0; }
